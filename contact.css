@@ -1,0 +1,91 @@
+body {
+    background-color: aqua;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 10% 2fr;
+    grid-gap: 10px;
+}
+
+.img-top {
+    height: 60px;
+    width: 60px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.links {
+    grid-column: 2;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-style: inherit;
+    font-family: 'Courier New', Courier, monospace;
+    color: chocolate;
+}
+
+h2 {
+    font-size: 25px;
+    font-style: initial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cadetblue;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-style: unset;
+}
+
+hr {
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    width: 5%;
+    color: gray;
+}
+
+.message {
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cornflowerblue;
+}
+
+.message:hover {
+    background-color: blueviolet;
+    color: darkblue;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+    border-style: solid;
+    border-radius: 30px;
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: blueviolet;
+}
+
+a:hover {
+    color: orangered;;
+}
